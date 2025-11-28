@@ -1,0 +1,122 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.link-header {
+    width: 79px;
+    height: 21px;
+    margin-top: 47px;
+    margin-left: 161px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 0.88px;
+    justify-content: flex-start;
+    color: #17233d;
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    margin-top: 32px;
+    margin-left: 160px;
+    cursor: pointer;
+    background: greenyellow;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-image {
+    width: 595px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+    color: #161A49;
+    font-weight: 700;
+    font-size: 62px;
+}
+
+h2 {
+    width: 493;
+    height: 99;
+    opacity: 1;
+    top: 553px;
+    left: 801px;
+    color: #4B505A;
+}
+
+a {
+    width: 112;
+    height: 27;
+    opacity: 1;
+    top: 707px;
+    left: 801px;
+    color: #6FBF44;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+section {
+    display: inline-block;
+    width: 600px;
+    margin-left: 60px;
+}
+
+@media screen and (max-width: 600px){
+    .link-header {
+        margin: 10px 0; /* Margens verticais para links */
+    }
+
+    .button-header {
+        width: 100%; /* Botão ocupa toda a largura */
+        margin-top: 10px; /* Espaço acima do botão */
+    }
+
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 18px; /* Tamanho do subtítulo reduzido */
+    }
+
+    a {
+        font-size: 16px; /* Tamanho do link reduzido */
+    }
+
+    section {
+        width: 90%; /* Seção ocupa 90% da largura */
+        margin-left: auto; /* Alinhamento automático */
+        margin-right: auto; /* Alinhamento automático */
+    }
+}
+
+@media screen and (max-width: 900px){
+    header .link-header {
+        display: none;
+    }
+    header .button-header{
+       margin-left: 750px;
+    }
+    section {
+        text-align: center;
+        line-height: 60px;
+        margin-top: 50px;
+        margin-left: 150px;
+    }
+    img .main-image {
+        margin-left: 160px;
+    }
+}
